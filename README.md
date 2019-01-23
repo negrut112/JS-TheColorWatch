@@ -5,9 +5,9 @@
 
 <img src="https://i.imgur.com/FhC2TOs.jpg"></img>
 
-<b>HTML</b><br>
-<p>I have used the HTML to define the id-s that I’m working with:<br>
-&lt;div style=“background-color:red” id=“clock” &gt;12:13:14&lt;/div&gt;<br>
+<b>HTML</b>
+<p>I have used the HTML to define the id-s that I’m working with:</p>
+<p>&lt;div style=“background-color:red” id=“clock” &gt;12:13:14&lt;/div&gt;<br>
 &lt;div id=“color-clock”&gt;&lt;/div&gt;</p>
 
 <p><b>CSS</b><br> 
