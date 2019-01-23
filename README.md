@@ -5,7 +5,7 @@
 
 <img src="https://i.imgur.com/FhC2TOs.jpg"></img>
 
-<b>HTML</b>
+<b>HTML</b><br>
 I have used the HTML to define the id-s that I’m working with:
 <p>&lt;div style=“background-color:red” id=“clock” &gt;12:13:14&lt;/div&gt;<br>
 &lt;div id=“color-clock”&gt;&lt;/div&gt;
