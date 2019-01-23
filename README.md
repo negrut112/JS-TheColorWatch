@@ -11,7 +11,8 @@ I have used the HTML to define the id-s that I’m working with:
 &lt;div id=“color-clock”&gt;&lt;/div&gt;
 
 <p><b>CSS</b><br> 
-Helped to customize the fonts and colors of the document and “ticking watch”<br>
+Helped to customize the fonts and colors of the document and “ticking watch”:<br>
+  
 html, body {<br>
 height: 100%;<br>
 font-family: ‘Coiny’, cursive;<br>
