@@ -29,19 +29,19 @@ color:black;<br>
 Here I wrote a function that’s getting the time using a <i>new Date() method</i> . The variables extracted are for hours, minutes and seconds.<br>
 The <u>problem</u> I faced was that, usually on watch, we have 6 characters but from 0 to 9 was generating just one, so we had to add a "0" for this range.<br>
 This function is changing is time with the <i>setTimeout method</i> to 1000 ms ( 1s).</p>
-<p>function colorClock(){<br>
+<p><b>function colorClock()</b>{<br>
 var date = new Date();<br>
-var hours = date.getHours();<br>
+  var hours = date.<b>getHours()</b>;<br>
 if (hours &lt; 10) {<br>
 hours =‘0’+hours;<br>
 }<br>
 var minutes=<br>
-date.getMinutes();<br>
+  date.<b>getMinutes()</b>;<br>
 if (minutes &lt; 10) {<br>
 minutes =‘0’+minutes;<br>
 }<br>
 var seconds=<br>
-date.getSeconds();<br>
+date.<b>getSeconds()</b>;<br>
 if (seconds &lt; 10) {<br>
 seconds =‘0’+seconds;<br>
 }<br>
@@ -49,7 +49,7 @@ var clockFace=(hours+’:’+ minutes+’:’+seconds);<br>
 var hexColor = ‘#’ + hours + minutes + seconds;<br>
 document.getElementById(‘clock’).innerHTML = clockFace;<br>
 document.body.style.background = hexColor;</p>
-<p>setTimeout(function() {<br>
+<p><b>setTimeout(function()</b> {<br>
 colorClock();<br>
 }, 1000);<br>
 }<br>
