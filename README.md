@@ -1,4 +1,4 @@
-#TheColorWatch
+# TheColorWatch
 <p>A “ticking” clock, that’s changing it’s hex color according to local time. The app was made with help of: HTML, CSS and JavaScript.</p>
 <br>
 <p>You can see the live preview accesing: <a href="https://negrut112.github.io/JS-TheColorWatch/">https://negrut112.github.io/JS-TheColorWatch/</a></p>
