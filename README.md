@@ -6,13 +6,11 @@
 <img src="https://i.imgur.com/FhC2TOs.jpg"></img>
 
 <b>HTML</b>
-
 I have used the HTML to define the id-s that I’m working with:<br>
 &lt;div style=“background-color:red” id=“clock” &gt;12:13:14&lt;/div&gt;<br>
 &lt;div id=“color-clock”&gt;&lt;/div&gt;</p>
 
-<p><b>CSS</b><br>
-  
+<p><b>CSS</b><br> 
 Helped to customize the fonts and colors of the document and “ticking watch”<br>
 html, body {<br>
 height: 100%;<br>
