@@ -26,9 +26,9 @@ color:black;<br>
 }<br>
 
 <b>JavaScript</b><br>
-Here I wrote a function that’s getting the time using a new Date() method . The variables extracted are for hours, minutes and seconds.<br>
-The problem we faced was that, usually on watch, we have 6 characters but from 0 to 9 was generating just one, so we had to add a “0” for this range.<br>
-This function is changing is time with the setTimeout method to 1000 ms ( 1s).</p>
+Here I wrote a function that’s getting the time using a <i>new Date() method</i> . The variables extracted are for hours, minutes and seconds.<br>
+The <u>problem</u> I faced was that, usually on watch, we have 6 characters but from 0 to 9 was generating just one, so we had to add a "0" for this range.<br>
+This function is changing is time with the <i>setTimeout method</i> to 1000 ms ( 1s).</p>
 <p>function colorClock(){<br>
 var date = new Date();<br>
 var hours = date.getHours();<br>
