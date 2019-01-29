@@ -17,6 +17,7 @@ Helped to customize the fonts and colors of the document and “ticking watch”
 height: 100%;<br>
 font-family: ‘Coiny’, cursive;<br>
 }<br>
+
 #clock {<br>
 text-align: center;<br>
 position: relative;<br>
@@ -31,6 +32,7 @@ The <u>problem</u> I faced was that, usually on watch, we have 4 or 6 characters
 This function is changing its time with the <i>setTimeout method</i> to 1000 ms ( 1s).</p>
 <pre><code><b>function colorClock()</b>{<br>
 var date = new Date();<br>
+
 var hours = date.<b>getHours()</b>;<br>
 if (hours &lt; 10) {<br>
 hours =‘0’+hours;<br>
@@ -40,11 +42,13 @@ date.<b>getMinutes()</b>;<br>
 if (minutes &lt; 10) {<br>
 minutes =‘0’+minutes;<br>
 }<br>
+
 var seconds=<br>
 date.<b>getSeconds()</b>;<br>
 if (seconds &lt; 10) {<br>
 seconds =‘0’+seconds;<br>
 }<br>
+
 var clockFace=(hours+’:’+ minutes+’:’+seconds);<br>
 var hexColor = ‘#’ + hours + minutes + seconds;<br>
 document.getElementById(‘clock’).innerHTML = clockFace;<br>
