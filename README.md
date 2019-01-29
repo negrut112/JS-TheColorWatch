@@ -5,12 +5,12 @@
 
 <img src="https://i.imgur.com/FhC2TOs.jpg"></img>
 
-<b>HTML</b><br>
+## HTML<br>
 I have used the HTML to define the id-s that I’m working with:
 <p>&lt;div style=“background-color:red” id=“clock” &gt;12:13:14&lt;/div&gt;<br>
 &lt;div id=“color-clock”&gt;&lt;/div&gt;
 
-<p><b>CSS</b><br> 
+## CSS<br> 
 Helped to customize the fonts and colors of the document and “ticking watch”:<br>
   
 <pre><code>html, body {<br>
