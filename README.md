@@ -49,7 +49,7 @@ var clockFace=(hours+’:’+ minutes+’:’+seconds);<br>
 var hexColor = ‘#’ + hours + minutes + seconds;<br>
 document.getElementById(‘clock’).innerHTML = clockFace;<br>
 document.body.style.background = hexColor;</p>
-<p><b>setTimeout(function()</b> {<br>
+<b>setTimeout(function()</b> {<br>
 colorClock();<br>
 }, 1000);<br>
 }<br></code></pre>
