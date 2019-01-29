@@ -26,7 +26,7 @@ font-size:50px;<br>
 color:black;<br>
 }<br></pre></code>
 
-<b>JavaScript</b><br>
+## JavaScript<br>
 Here I wrote a function that’s getting the time using a <i>new Date() method</i> . The variables extracted are for hours, minutes and seconds.<br>
 The <u>problem</u> I faced was that, usually on watch, we have 4 or 6 characters depending on display but from 0 to 9 seconds for example was generating just one, so we had to add a "0" for this range.<br>
 This function is changing its time with the <i>setTimeout method</i> to 1000 ms ( 1s).</p>
