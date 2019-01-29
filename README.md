@@ -37,6 +37,7 @@ var hours = date.<b>getHours()</b>;<br>
 if (hours &lt; 10) {<br>
 hours =‘0’+hours;<br>
 }<br>
+
 var minutes=<br>
 date.<b>getMinutes()</b>;<br>
 if (minutes &lt; 10) {<br>
