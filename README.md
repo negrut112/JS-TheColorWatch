@@ -13,7 +13,7 @@ I have used the HTML to define the id-s that I’m working with:
 <p><b>CSS</b><br> 
 Helped to customize the fonts and colors of the document and “ticking watch”:<br>
   
-html, body {<br>
+<pre><code>html, body {<br>
 height: 100%;<br>
 font-family: ‘Coiny’, cursive;<br>
 }<br>
@@ -23,15 +23,15 @@ position: relative;<br>
 top:0%;<br>
 font-size:50px;<br>
 color:black;<br>
-}<br>
+}<br></pre></code>
 
 <b>JavaScript</b><br>
 Here I wrote a function that’s getting the time using a <i>new Date() method</i> . The variables extracted are for hours, minutes and seconds.<br>
 The <u>problem</u> I faced was that, usually on watch, we have 4 or 6 characters depending on display but from 0 to 9 seconds for example was generating just one, so we had to add a "0" for this range.<br>
 This function is changing its time with the <i>setTimeout method</i> to 1000 ms ( 1s).</p>
-<p><b>function colorClock()</b>{<br>
+<pre><code><b>function colorClock()</b>{<br>
 var date = new Date();<br>
-  var hours = date.<b>getHours()</b>;<br>
+var hours = date.<b>getHours()</b>;<br>
 if (hours &lt; 10) {<br>
 hours =‘0’+hours;<br>
 }<br>
@@ -52,4 +52,4 @@ document.body.style.background = hexColor;</p>
 <p><b>setTimeout(function()</b> {<br>
 colorClock();<br>
 }, 1000);<br>
-}<br>
+}<br></code></pre>
